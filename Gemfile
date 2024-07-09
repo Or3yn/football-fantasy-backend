@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+sudo chown -R $(whoami) /home/webstormProjects/football-fantasy-backend
 
 ruby "3.3.4"
 
