@@ -79,5 +79,5 @@ test:
 #
 production:
   <<: *default
-  url: postgresql://postgres:qXymgVKGGpqwJlPdyadUlcYAsgMbrjMl@viaduct.proxy.rlwy.net:15540/railway
-#  url: <%= ENV['DATABASE_URL'] %>
+#  url: postgresql://postgres:qXymgVKGGpqwJlPdyadUlcYAsgMbrjMl@viaduct.proxy.rlwy.net:15540/railway
+  url: <%= ENV['DATABASE_URL'] %>
